@@ -2,34 +2,111 @@
 //首页请求产品数据
 $(function(){
 	
-	//	首页快速通道点击存值以判断进入产品页面请求数据
+	//	快速通道点击存值以判断进入产品页面请求数据
 	$('.fast_box ul li a').click(function(){
 		var inx = $(this).attr('index');
 		localStorage.setItem('product',inx);
 	});
 	
-	//	公共加载头部尾部
-	$('.tou').load("head.html");
-	$('.wei').load("footer.html");
-	
-	//	首页轮播图切换
-	$('.in_banner ul li').eq(0).css({'opacity':1})
-	var index = 1;
-	setInterval(function(){
-		if(index > 2){
-			index = 0;
-		};
-		$('.in_banner ul li').animate({'opacity':0});
-		$('.in_banner ul li').eq(index).animate({'opacity':1},'swing');
-		index++;
-	},4000);
-	
-	//	视频播放
-	$('.br_img').click(function(){
-		$(this).hide();
-		$('.brand_video').children('video').attr('autoplay','true');
+	//首页请求产品数据
+	$.ajax({
+		type:"get",
+		url:"data/index.json",
+		async:false,
+		dataType: 'json',
+		success: function (data){
+            var results = '';
+        	$.each(data.indexPic,function (index,item){
+        		results += `<li><a href="#" code="${item.code}"><img src="${item.imgurl}"/><p>${item.int}</p><span>${item.na}</span></a></li>`;
+            });
+            $('.product_list').html(results);
+        }
 	});
 	
+//	新闻列表请求数据
+	$.ajax({
+	    type : "get",
+	    url : "data/index.json",
+	    dataType : "json",
+	    cache : false,
+	    success : function (data){
+	        var str = "";
+	        $.each(data.news,function(index,value){
+	            str +=  '<li class="newsClass cf" code="'+value.code+'"><div class="newsImg"><a href="news_1.html"><img src="'+value.imgurl+'" alt="" style="left:'+value.left+'"></a></div><div class="news"><p class="newsTitle"><a href="news_1.html">'+value.title+'</a></p><p class="newsMessage"><span class="newsTime">'+value.time+'</span><span class="newsKeyword">'+value.keyword+'</span></p><p class="newsAbstract">'+value.abstract+'</p></div></li>'
+	        });
+	        $(".newsList").html(str);
+	    }
+	
+	
+	});
+	
+//	新闻列表小列表请求数据
+	$.ajax({
+	    type : "get",
+	    url : "data/index.json",
+	    dataType : "json",
+	    cache : false,
+	    success : function (data){
+	        var str = "";
+	        $.each(data.newsTitle,function(index,value){
+	            str +=  '<li class="hotNewsTitle"><span>'+value.time+'</span><a href="">'+value.title+'</a></li>'
+	        });
+	        $(".hotNews").html(str);
+	    }
+	});
+	
+	// 产品展示加载数据
+    $.ajax({
+        url: 'data/index.json',
+        type: 'get',
+        cache: false,
+        dataType: 'json',
+        success: function (data){
+            var results = '';
+            $.each(data.yh1,function (index,item){
+                results += '<li><a href="productdetail.html"><img src="'+item.imgurl+'" alt="">'+item.label+'</a><p>'+item.describe+'</p></li>';
+            });                
+            $('.serial-img').html(results);
+
+            var results2 = '';
+            $.each(data.yh2,function (index,item){
+                results2 += '<li><a href="productdetail.html"><img src="'+item.imgurl+'" alt="">'+item.label+'</a><p>'+item.describe+'</p></li>';
+            }); 
+            $('.product-img').html(results2);
+        }
+    });
+
+    $('.mynav ul').on('click','li',function (){
+        var index = $(this).index();
+        location.href = "productdiff.html?list="+index;
+    });
+	
+	
+
+    // 招商加盟
+    $.ajax({
+        url: 'data/index.json',
+        type: 'get',
+        cache: false,
+        dataType: 'json',
+        success: function (data) {
+            var results = '';
+            $.each(data.support, function (index, item) {
+                results += `<li><p>${item.title}</p><div> <a><img src="${item.imgurl}" alt=""></a><p>${item.nav}</p></div></li>`
+            });
+            $('.yu_support_left').html(results); 
+            var results1 = '';
+            $.each(data.support2, function (index, item) {
+                results1 += `<li><p>${item.title}</p><div> <a><img src="${item.imgurl}" alt=""></a><p>${item.nav}</p></div></li>`
+            });
+            $('.yu_support_right').html(results1);
+        }
+    });
+
+	//	加载头部尾部
+	$('.tou').load("head.html");
+	$('.wei').load("footer.html");
+		
 	//	滚动返回顶部
 	(function(){
 		$(window).scroll(function(){
@@ -46,13 +123,7 @@ $(function(){
 		});
 	})();
 	
-		
-	//	产品展示连接拼接
-    $('.mynav ul').on('click','li',function (){
-        var index = $(this).index();
-        location.href = "productdiff.html?list="+index;
-    });
-
+	
 	//	快速通道选中状态
 	$('.fast_box ul li').mouseover(function(){
 		var i = $(this).index();
@@ -79,7 +150,7 @@ $(function(){
 	    });
 	});
 	
-	//	快速通道点击高亮状态
+//	快速通道点击高亮状态
 	var indexA=parseInt( location.search.split('=')[1]);
 	$('.mynav ul:eq(0) li').eq(indexA).find('a img').eq(0).css('display','none').next().css('display','inline-block');
 	$('.mynav ul:eq(0) li').eq(indexA).find('a span').css('color','rgb(195, 169, 108)');
@@ -93,7 +164,7 @@ $(function(){
 	    });
 	});
 	
-	//	快速通道连接
+//	快速通道连接
 	$('.mynav ul').on('click','li',function (){
 	    var index = $(this).index();
 	    localStorage.setItem('product',index);
@@ -107,73 +178,17 @@ $(function(){
 		var index = $(this).index();
 		location.href = "productdiff.html?list="+index;
 	});
-
-	//	产品详情弹窗
-	$('.product-container p').click(function(){
-	    $('.mask').css('display','block');
-	    $('.fm').css('display','block');
-	});
-	$('.fm .sub_btn').find('span:nth-child(2)').click(function(){
-	    $('.mask').css('display','none');
-	    $('.fm').css('display','none');
-	});
 	
-	
-	//首页请求产品数据
-	$.ajax({
-		type:"get",
-		url:"data/index.json",
-		async:false,
-		dataType: 'json',
-		success: function (data){
-			//首页请求产品数据
+//	产品详情加载数据
+// 加载数据
+    $.ajax({
+        url: 'data/index.json',
+        type: 'get',
+        cache: false,
+        dataType: 'json',
+        success: function (data){
             var results = '';
-        	$.each(data.indexPic,function (index,item){
-        		results += `<li><a href="#" code="${item.code}"><img src="${item.imgurl}"/><p>${item.int}</p><span>${item.na}</span></a></li>`;
-            });
-            $('.product_list').html(results);
-            
-            //	新闻列表请求数据
-            var str = "";
-	        $.each(data.news,function(index,value){
-	            str +=  '<li class="newsClass cf" code="'+value.code+'"><div class="newsImg"><a href="news_1.html"><img src="'+value.imgurl+'" alt="" style="left:'+value.left+'"></a></div><div class="news"><p class="newsTitle"><a href="news_1.html">'+value.title+'</a></p><p class="newsMessage"><span class="newsTime">'+value.time+'</span><span class="newsKeyword">'+value.keyword+'</span></p><p class="newsAbstract">'+value.abstract+'</p></div></li>'
-	        });
-	        $(".newsList").html(str);
-	        
-	        //	新闻列表小列表请求数据
-	        var str1 = "";
-	        $.each(data.newsTitle,function(index,value){
-	            str1 +=  '<li class="hotNewsTitle"><span>'+value.time+'</span><a href="">'+value.title+'</a></li>'
-	        });
-	        $(".hotNews").html(str1);
-	        
-	        // 产品展示加载数据
-	        var results1 = '';
-            $.each(data.yh1,function (index,item){
-                results1 += '<li><a href="productdetail.html"><img src="'+item.imgurl+'" alt="">'+item.label+'</a><p>'+item.describe+'</p></li>';
-            });                
-            $('.serial-img').html(results1);
-            var results2 = '';
-            $.each(data.yh2,function (index,item){
-                results2 += '<li><a href="productdetail.html"><img src="'+item.imgurl+'" alt="">'+item.label+'</a><p>'+item.describe+'</p></li>';
-            }); 
-            $('.product-img').html(results2);
-            
-            // 招商加盟
-            var results3 = '';
-            $.each(data.support, function (index, item) {
-                results3 += `<li><p>${item.title}</p><div> <a><img src="${item.imgurl}" alt=""></a><p>${item.nav}</p></div></li>`
-            });
-            $('.yu_support_left').html(results3); 
-            var results4 = '';
-            $.each(data.support2, function (index, item) {
-                results4 += `<li><p>${item.title}</p><div> <a><img src="${item.imgurl}" alt=""></a><p>${item.nav}</p></div></li>`
-            });
-            $('.yu_support_right').html(results4);
-            
-            //	产品详情加载数据
-            var results5 = '';
-            var results6 = '';
+            var result = '';
             var product = localStorage.getItem("product");
             if(product == 5){
             	product == 2;
@@ -181,9 +196,9 @@ $(function(){
             	product == 4;
             }
             $.each(data['productTab'+product],function (index,item){
-                results5 += '<li><a href="productdetail.html"><img src="'+item.imgUrl+'" alt=""></a><p>'+item.tit+'</p></li>';
+                results += '<li><a href="productdetail.html"><img src="'+item.imgUrl+'" alt=""></a><p>'+item.tit+'</p></li>';
             });                
-            $('.serial-img').html(results5);
+            $('.serial-img').html(results);
 
             var arr=[];
             $.each(data.yh3,function (index,item){
@@ -193,10 +208,29 @@ $(function(){
             var indexB=arr.indexOf(indexA+1);
             //避免调换json数据顺序时，序号对应错误
             // console.log(indexB);
-            results6 = `<img src="${data.yh3[indexB].imgurl}" alt="">`;
-            $('.banner').html(results6);
-            
-            //设计师主管请求数据列表
+            result = `<img src="${data.yh3[indexB].imgurl}" alt="">`;
+            $('.banner').html(result);
+        }
+    });
+	
+//	产品详情弹窗
+	$('.product-container p').click(function(){
+	    $('.mask').css('display','block');
+	    $('.fm').css('display','block');
+	});
+	$('.fm .sub_btn').find('span:nth-child(2)').click(function(){
+	    $('.mask').css('display','none');
+	    $('.fm').css('display','none');
+	});
+	
+//	设计师页面请求数据
+	$.ajax({
+        url: "data/index.json",
+        type: "get",
+        dataType: "json",
+        anync: false,
+        success: function (data) {
+//      	设计师主管请求数据列表
             var res = "";
             var dataL = data.leader;
             $.each(dataL, function (index, val) {
@@ -211,7 +245,7 @@ $(function(){
                 };
             });
             
-			//设计师列表请求数据
+//          设计师列表请求数据
             var resL = "";
             var dataM = data.master;
             $.each(dataM, function (index, item) {
@@ -230,12 +264,22 @@ $(function(){
 	                </div>
 	            </div>`;   
             });
-            $(".D_bBox").html(resL);
-            
-            //	设计师详情页面数据请求
-            var results7 = '';
+            $(".D_bBox").html(resL); 
+
+        }
+    })
+	
+//	设计师详情页面数据请求
+//	设计师详情请求数据
+    $.ajax({
+        type: 'get',
+        url: 'data/index.json',
+        anync: false,
+        dataType: 'json',
+        success: function (data) {
+            var results = '';
             var dData=data.D_title;
-            results7 += `<p class="Fang">${dData.say}</p> 
+            results += `<p class="Fang">${dData.say}</p> 
             <p class="blowCowB_s">${dData.tit1}</p>
             <p class="D_question">${dData.question1}</p>
             <p class="D_content">${dData.dCtt1}</p>
@@ -251,9 +295,29 @@ $(function(){
             <p class="D_question">${dData.question6}</p>
             <p class="D_content">${dData.dCtt6}</p>
             `;
-            $(".D_ajax").html(results7);
+            $(".D_ajax").html(results);
         }
+
+    });
+	
+	//	视频播放
+	$('.br_img').click(function(){
+		$(this).hide();
+		$('.brand_video').children('video').attr('autoplay','true');
 	});
+	
+	//	轮播图切换
+	$('.in_banner ul li').eq(0).css({'opacity':1})
+	var index = 1;
+	setInterval(function(){
+		if(index > 2){
+			index = 0;
+		};
+		$('.in_banner ul li').animate({'opacity':0});
+		$('.in_banner ul li').eq(index).animate({'opacity':1},'swing');
+		index++;
+	},4000);
+
 
 	
 })

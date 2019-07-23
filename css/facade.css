@@ -129,7 +129,7 @@
     position: relative;
 }
 
-select {
+.select>div select {
     margin: 0 15px;
     width: 160px;
     height: 30px;
@@ -147,7 +147,7 @@ select {
     background: url("../images/store-down.bmp") no-repeat scroll right center transparent;
 }
 
-select>option {
+.select>div select>option {
     background: #343434;
 }
 
