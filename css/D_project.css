@@ -1,0 +1,205 @@
+.D-bigImg img{
+    position: absolute;
+    left: -285px;
+    background: url('images/D-lunbo.jpg') no-repeat;
+}
+.D-bigImg{
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    display: block;
+}
+.D_group{
+    height: 395px;
+    display: block;
+    text-align: center;
+}
+.D-design{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 105px;
+    display:inline-block;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.D_team{
+    font-weight: bold;
+    font-size: 20px;
+    display:block;
+    letter-spacing: 3px;
+}
+.D_intro{
+    margin: 40px auto 0;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width: 400px;
+    color: #333;
+}
+.channeImg img{
+    display: block;
+    margin: 0 auto;
+}
+.CEOshow{
+    width:765px;
+    height: 630px;
+    position: absolute;
+    left: 154px;
+    top: 1517px;
+}
+.D_show{
+    font-size: 23px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 30px 0 5px 0;
+}
+.D_yangpi{
+    letter-spacing: 1.3px;
+    margin-block-start: 0;
+    margin-block-end: 0;  
+    margin-bottom: 34px;
+    font-size: 14px;
+    color: #fff;
+}
+.D_blow{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+.D_CEOname img{
+    margin-left: 88px;
+}
+.D_redot img{
+    margin: 60px 0 10px 0;
+}
+.D_other{
+    width: 1220px;
+    height: 650px;
+    margin: 34px auto;
+}
+.other_img{
+    width: 580px;
+    height: 610px;
+    background: #fff;
+    box-sizing: border-box;
+    margin-left: 11px;
+    box-shadow: 5px 5px 10px #ccc;
+    padding: 25px 30px 40px;
+}
+.other_img2{
+    width: 580px;
+    height: 610px;
+    background: #fff;
+    box-sizing: border-box;
+    margin-left: 11px;
+    box-shadow: 5px 5px 10px #ccc;
+    padding: 25px 30px 40px;
+}
+.other_text{
+    font-size: 17px;
+    color: #333;
+    line-height: 30px;
+}
+
+.D_left50{
+    width: 50%;
+    float: left;
+}
+.D_master{
+    width: 100%;
+    background: #fff;
+    padding: 75px 94px;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+.D_DESIGNERS{
+    /* display: inline-block; */
+    padding-bottom: 10px;
+    border-bottom: #000 1px solid;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    
+}
+a{
+    text-decoration:none;
+}
+.D_title{
+    margin-top: 20px;
+    font-size: 23px;
+   margin-bottom: 53px;
+    letter-spacing: 5px;
+}
+.D_top_box{
+    width: 50%;
+    background: #343434;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 300px;
+    float: left;
+}
+.D_top_box img{
+    display: block;
+    float: left;
+}
+.D_masterName{
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+}
+.D_master_intro{
+    width: 220px;
+    float: left;
+    height: 300px;
+   
+    padding: 25px;
+}
+.D_master_intro_1{
+    font-size: 14px;
+    color: #9a9999;
+    line-height: 25px;
+    margin-top: 15px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #c3a96c;
+}
+.D_master_intro a{
+    font-size: 14px;
+    color: #c3a96c;
+    height: 100px;
+    line-height: 25px;
+    border-top: 1px solid #c3a96c;
+    display: block;
+    padding-top: 12px; 
+}
+.D_master_intro img{
+    width: 62px;
+    height: 15px;
+    float: right;
+    margin-top: 5px;
+}
+.D_master_intro a span{
+    float: left;
+}
+.D_master_intro a span:hover{
+    text-decoration: underline;
+}
+.D_top_box_img{
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.D_top_box[code="b3"] .D_top_box_img,.D_top_box[code="b4"] .D_top_box_img{
+    float: right;
+}
+.D_top_box .D_top_box_img img,.D_top_box .D_top_box_img2 img{
+    transform: scale(1);
+    transition:  all 0.5s ease;
+}
+.D_top_box:hover .D_top_box_img img,.D_top_box:hover .D_top_box_img2 img{
+    transform: scale(1.1);
+    transition:  all 0.5s ease;
+}
+

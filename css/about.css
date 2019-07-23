@@ -1,0 +1,106 @@
+/*about*/
+.about_banner{
+	
+}
+.about_banner a{
+	display: block;
+	width: 100%;
+}
+.about_banner a img{
+	width: 100%;
+}
+
+/*  内容区   */
+.about{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*标题*/
+.about_tit{
+	margin: 90px 0 40px;
+	text-align: center;
+}
+.about_tit span{
+	font-size: 20px;
+	color: #000;
+	letter-spacing: 3px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+	font-weight: bold;
+}
+.about_tit p{
+	font-size: 18px;
+	color: #000;
+	letter-spacing: 6px;
+	padding-top: 10px;
+}
+.about_nav{
+	padding: 0 112px;
+}
+.about_nav p{
+	font-size: 15px;
+	color: #333;
+	letter-spacing: 2.5px;
+	line-height: 25px;
+	margin-bottom: 30px;
+	text-indent: 2em;
+}
+/*内容区图片*/
+.about_img{
+	margin-top: 60px;
+}
+.about_img ul{
+	float: left;
+	margin-right: 30px;
+}
+.about_img ul li{
+	position: relative;
+	width: 304px;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.about_img ul:nth-child(3){
+	margin-right: 0;
+}
+.null{
+	height: 90px;
+}
+/*图文介绍*/
+.text_img{
+	width: 870px;
+	min-height: 485px;
+	background: #eee;
+	margin-bottom: 95px;
+	position: relative;
+	padding: 68px 0 0 55px;
+	box-sizing: border-box;
+}
+.ti_box{
+	width: 300px;
+}
+.ti_box_sp{
+	margin-bottom: 22px;
+}
+.ti_box_sp span{
+	font-size: 15px;
+	color: #333;
+	letter-spacing: 3.5px;
+	text-align: left;
+	line-height: 25px;
+	width: 280px;
+	display: block;
+}
+.text_img img{
+	position: absolute;
+	left: 356px;
+	top: 66px;
+	width: 703px;
+	height: 452px;
+}
+
+
+
+
+

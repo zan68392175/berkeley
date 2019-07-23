@@ -1,0 +1,80 @@
+.banner img {
+  width: 100%;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content .tip {
+  border-left: 5px solid #c3a96c;
+  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 40px;
+  padding-left: 20px;
+}
+.content .newsList .newsClass {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.content .newsList .newsClass .newsImg {
+  float: left;
+}
+.content .newsList .newsClass .newsImg a {
+  width: 320px;
+  height: 190px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.content .newsList .newsClass .newsImg a img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.content .newsList .newsClass .news {
+  line-height: 30px;
+  margin-left: 40px;
+  font-size: 14px;
+  float: right;
+}
+.content .newsList .newsClass .news .newsTitle {
+  font-size: 18px;
+}
+.content .newsList .newsClass .news .newsMessage {
+  margin-top: 26px;
+  margin-bottom: 22px;
+  color: #888;
+}
+.content .newsList .newsClass .news .newsMessage .newsKeyword {
+  margin-left: 20px;
+  color: #c3a96c;
+}
+.content .newsList .newsClass .news .newsAbstract {
+  width: 840px;
+}
+.content .page {
+  margin: 75px auto;
+  font-size: 16px;
+  text-align: center;
+}
+.content .page a {
+  display: inline-block;
+  margin: 0 11px;
+  color: #666;
+}
+.content .hotNews {
+  padding-bottom: 88px;
+}
+.content .hotNews .hotNewsTitle {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.content .hotNews .hotNewsTitle span {
+  color: #888;
+  padding-right: 50px;
+}

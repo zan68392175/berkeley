@@ -1,0 +1,74 @@
+
+<link rel="stylesheet" type="text/css" href="css/head.css"/>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+
+<div class="head">
+	<!--logo-->
+	<div class="head_top">
+		<h1><a class="logo" href="#"><img src="images/head-logo.png" alt="伯克利"/>伯克利</a></h1>
+		<div class="language">
+			<a class="l_tab" href="#">中文</a>
+			<span>/</span>
+			<a href="#">English</a>
+		</div>
+	</div>
+	
+	<!--导航-->
+	<div class="nav">
+		<a class="act" href="index.html">首页</a>
+		<a href="about.html">品牌介绍</a>
+		<a href="news.html">品牌新闻</a>
+		<a href="productshow.html">产品展示</a>
+		<a href="facade.html">门面查找</a>
+		<a href="D_project.html">设计师频道</a>
+		<a href="contact.html">联系我们</a>
+		<a href="123.html">官网商城</a>
+		<div class="nav_logo">
+			<img src="images/ls-logo.png"/>
+		</div>
+	</div>
+</div>
+<!--置顶-->
+<div id="top">
+	<img src="images/top.png"/>
+</div>
+	
+
+<script type="text/javascript">
+	//	链接导航选择状态
+	var urlstr = location.href;
+	var urlstatus=false;
+	$(".nav a").each(function () {
+		if ((urlstr + '/').indexOf($(this).attr('href')) > -1&&$(this).attr('href')!='') {
+			$(this).addClass('act'); 
+			urlstatus = true;
+		} else if((urlstr + '/').indexOf("news_1.html") > -1){
+			$(".nav a").removeClass('act').eq(2).addClass('act');
+			urlstatus = true;
+		}else if((urlstr + '/').indexOf("investment.html") > -1){
+			$(".nav a").removeClass('act').eq(6).addClass('act');
+			urlstatus = true;
+		}else if((urlstr + '/').indexOf("productdetail.html") > -1){
+			$(".nav a").removeClass('act').eq(3).addClass('act');
+			urlstatus = true;
+		}else if((urlstr + '/').indexOf("productdiff.html") > -1){
+			$(".nav a").removeClass('act').eq(3).addClass('act');
+			urlstatus = true;
+		}else if((urlstr + '/').indexOf("dText.html") > -1){
+			$(".nav a").removeClass('act').eq(5).addClass('act');
+			urlstatus = true;
+		}else if((urlstr + '/').indexOf("news_2.html") > -1){
+			$(".nav a").removeClass('act').eq(3).addClass('act');
+			urlstatus = true;
+		}else {
+			$(this).removeClass('act');
+		}
+	});
+	
+	if (!urlstatus) {
+		$(".nav a").eq(0).addClass('act'); 
+	}
+	
+</script>
+	
+

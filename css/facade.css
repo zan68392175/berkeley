@@ -1,0 +1,286 @@
+.yu_slideshow {
+    width: 1349px;
+    margin: 0 auto;
+}
+
+.yu_slideshow img {
+    width: 100%;
+}
+
+.yu_query {
+    margin: 90px 0 30px 0;
+}
+
+.yu_query span {
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    font-size: 22px;
+    border-left: 6px solid #c3a96c;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+
+
+#store {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.store-text {
+    margin: 90px 0 30px 0;
+}
+
+.store-text>span {
+    display: block;
+    font-size: 22px;
+    border-left: 6px solid #c3a96c;
+    padding-left: 20px;
+    margin-bottom: 35px;
+}
+
+.store-text>div {
+    padding-left: 28px;
+}
+
+.store-text>div>p {
+    font-size: 18px;
+    color: #333;
+    line-height: 32px;
+}
+
+/*地图*/
+.store-location {
+    overflow: hidden;
+    position: relative;
+    padding: 0 14px;
+}
+
+.store-location>div {
+    float: left;
+}
+
+#store-map {
+    width: 772px;
+    height: 500px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.store-adr {
+    width: 400px;
+    height: 500px;
+    background: #343434;
+}
+
+.amap-toolbar {
+    display: none;
+}
+
+.amap-copyright {
+    display: none !important;
+}
+
+.amap-logo>img {
+    display: none;
+}
+
+.amap-info-content>div {
+    padding: 30px 15px 20px 15px;
+    min-height: 60px;
+    position: relative;
+}
+
+.amap-info-content p {
+    width: 300px;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+.amap-info-content p:nth-child(1) {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.amap-info-content a {
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+    color: #fff;
+    background: #c3a96c;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+/*城市选择*/
+.select {
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.select>div {
+    float: left;
+    position: relative;
+}
+
+select {
+    margin: 0 15px;
+    width: 160px;
+    height: 30px;
+    border: 1px solid #a3a3a3;
+    color: #a3a3a3;
+    font-size: 14px;
+    background: #343434;
+    padding-left: 8px;
+    box-sizing: border-box;
+    border-right: 0;
+    background: #343434;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/store-down.bmp") no-repeat scroll right center transparent;
+}
+
+select>option {
+    background: #343434;
+}
+
+/*.select>div:nth-child(1) {
+    margin: 0 18px 0 28px;
+}*/
+
+.adr-text {
+    height: 430px;
+    margin: 0 auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+    background: #343434;
+}
+
+.adr-text::-webkit-scrollbar {
+    width: 6px;
+    height: 100px;
+}
+
+.adr-text::-webkit-scrollbar-track {
+    background-color: #343434;
+}
+
+.adr-text::-webkit-scrollbar-thumb {
+    background-color: #c3a96c;
+}
+
+.adr-text {
+    scrollbar-base-color: #c3a96c;
+    scrollbar-3dlight-color: #343434;
+    scrollbar-highlight-color: #343434;
+    scrollbar-track-color: #343434;
+    scrollbar-arrow-color: #343434;
+    scrollbar-shadow-color: #343434;
+    scrollbar-dark-shadow-color: #343434;
+    scrollbar-thumb-color: #c3a96c;
+    scrollbar-darkshadow-color: #343434;
+}
+
+.adr-text>ul {
+    padding-bottom: 50px;
+}
+
+.adr-text>ul>li {
+    overflow: hidden;
+    ;
+    margin-top: 20px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+li.active-bg {
+    background: #1b1b1b;
+}
+
+.adr-text>ul>li>div {
+    float: left;
+}
+
+.adr-text>ul>li>div:nth-child(1) {
+    margin-right: 5px;
+}
+
+.adr-text>ul>li>div:nth-child(2) {
+    margin-top: 8px;
+    width: 290px;
+}
+
+.adr-text>ul>li>div:nth-child(2)>span {
+    display: block;
+    font-size: 18px;
+    color: #a3a3a3;
+    margin-bottom: 14px;
+}
+
+.adr-text>ul>li>div:nth-child(2)>p {
+    font-size: 14px;
+    color: #a3a3a3;
+}
+
+.adr-text>ul>li>div:nth-child(2)>p:nth-child(2) {
+    margin-bottom: 7px;
+}
+
+/*门店图片*/
+.store-pic {
+    overflow: hidden;
+    margin: 14px 0 80px 10px;
+}
+
+.store-pic>li {
+    float: left;
+    margin: 0 10px 12px 0;
+    position: relative;
+}
+
+.store-pic>li>a {
+    display: block;
+    width: 386px;
+    height: 432px;
+    position: relative;
+    overflow: hidden;
+}
+
+.store-pic>li>a>img {
+    position: absolute;
+    margin: auto;
+    top: -9999px;
+    left: -9999px;
+    bottom: -9999px;
+    right: -9999px;
+}
+
+.store-pic>li:first-child>a {
+    width: 782px;
+}
+
+.store-pic>li>span {
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}
+
+ .yu_picture {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.yu_picture li {
+    float: left;
+    margin: 0 10px 12px 0;
+}

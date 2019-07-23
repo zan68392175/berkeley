@@ -1,0 +1,82 @@
+
+/*头部logo*/
+.head{
+	height: 210px;
+	background: #1b1b1b;
+}
+.head_top{
+	height: 150px;
+	position: relative;
+	text-align: center;
+}
+.head_top .logo{
+	display: inline-block;
+	width: 225px;
+	height: 85px;
+	margin: 32.5px auto 0;
+	text-indent: -9999px;
+	background: url(../images/head-logo.png) no-repeat center;
+}
+.language{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+.language span{
+	margin: 0 5px;
+}
+.language a{
+	font-size: 14px;
+	color: #fff;
+}
+.language a:hover{
+	color: #c3a96c;
+}
+.language a.l_tab{
+	color: #c3a96c;
+}
+
+/*导航栏*/
+.nav{
+	height: 60px;
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.nav a{
+	width: 135px;
+	display: block;
+	float: left;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+}
+.nav a:hover{
+	color: #c3a96c;
+}
+.nav a.act{
+	color: #c3a96c;
+}
+.nav_logo{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 99;
+}
+
+/*返回顶部*/
+#top{
+	position: fixed;
+	right: 2%;
+	bottom: 15%;
+	z-index: 99;
+	opacity: .5;
+	cursor: pointer;
+	display: none;
+}
+#top:hover{
+	opacity: 1;
+}

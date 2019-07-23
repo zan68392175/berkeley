@@ -1,0 +1,246 @@
+{
+	"indexPic":[
+		{"imgurl":"images/pic1.jpg","int":"Berkeley吊灯","na":"- 艾璞 -","code":"a1"},
+		{"imgurl":"images/pic2.jpg","int":"Berkeley吊线灯","na":"- 波纹 -","code":"a2"},
+		{"imgurl":"images/pic3.jpg","int":"Berkeley吊线灯","na":"- 陶醉 -","code":"a3"},
+		{"imgurl":"images/pic4.jpg","int":"Berkeley吊灯","na":"- 相望 -","code":"a4"}
+	],
+	
+	"productTab0":[
+		{"imgUrl":"images/tab1.jpg","tit":"Berkeley相望系列"},
+		{"imgUrl":"images/tab2.jpg","tit":"Berkeley追影系列"},
+		{"imgUrl":"images/tab3.jpg","tit":"Berkeley漫游系列"},
+		{"imgUrl":"images/tab4.jpg","tit":"Berkeley拾刻系列"},
+		{"imgUrl":"images/tab5.jpg","tit":"Berkeley晨曦系列"},
+		{"imgUrl":"images/tab6.jpg","tit":"Berkeley摩卡系列"},
+		{"imgUrl":"images/tab7.jpg","tit":"Berkeley幻彩系列"},
+		{"imgUrl":"images/tab8.jpg","tit":"Berkeley植悟系列"},
+		{"imgUrl":"images/tab9.jpg","tit":"Berkeley轩尼斯系列"},
+		{"imgUrl":"images/tab10.jpg","tit":"Berkeley波纹系列"},
+		{"imgUrl":"images/tab11.jpg","tit":"Berkeley洛影系列"},
+		{"imgUrl":"images/tab12.jpg","tit":"Berkeley拾光系列"}
+	],
+	"productTab1":[
+		{"imgUrl":"images/tab11.jpg","tit":"Berkeley简白系列"},
+		{"imgUrl":"images/tab12.jpg","tit":"Berkeley伯尔系列"},
+		{"imgUrl":"images/tab13.jpg","tit":"Berkeley折花系列"},
+		{"imgUrl":"images/tab14.jpg","tit":"Berkeley飞风系列"},
+		{"imgUrl":"images/tab15.jpg","tit":"Berkeley相望系列"},
+		{"imgUrl":"images/tab16.jpg","tit":"Berkeley普思系列"},
+		{"imgUrl":"images/tab17.jpg","tit":"Berkeley追影系列"},
+		{"imgUrl":"images/tab18.jpg","tit":"Berkeley漫游系列"}
+	],
+	"productTab2":[
+		{"imgUrl":"images/tab21.jpg","tit":"Berkeley折花系列"},
+		{"imgUrl":"images/tab22.jpg","tit":"Berkeley相望系列"},
+		{"imgUrl":"images/tab23.jpg","tit":"Berkeley普思系列"},
+		{"imgUrl":"images/tab24.jpg","tit":"Berkeley追影系列"}
+	],
+	"productTab3":[
+		{"imgUrl":"images/tab31.jpg","tit":"Berkeley拾光系列"},
+		{"imgUrl":"images/tab32.jpg","tit":"Berkeley陶醉系列"},
+		{"imgUrl":"images/tab33.jpg","tit":"Berkeley陶醉系列"},
+		{"imgUrl":"images/tab34.jpg","tit":"Berkeley静语系列"}
+	],
+	"productTab4":[
+		{"imgUrl":"images/tab41.jpg","tit":"Berkeley忆净系列"},
+		{"imgUrl":"images/tab42.jpg","tit":"Berkeley忆净系列"},
+		{"imgUrl":"images/tab43.jpg","tit":"Berkeley净心"},
+		{"imgUrl":"images/tab44.jpg","tit":"Berkeley爵士系列"}
+	],
+	"support":[
+        {"title":"指定区域独家经营支持","imgurl":"images/1.png","nav":"经销商享有再指定区域内的独家经营权，切身保护加盟经销商的利益。"},
+        {"title":"专业的开业指导支持","imgurl":"images/2.png","nav":"提供科学合理的、行业领先的开业装修设计方案，并享有专业终端管理团队就开店选址、投资预算、装修施工、产品陈列等"},
+        {"title":"贴心的建店补贴支持","imgurl":"images/3.png","nav":"提供建店补贴等一系列支持，最大限度减轻加盟经销商压力，确保快速进入正常经营正轨。"},
+        {"title":"完善的培训支持","imgurl":"images/4.png","nav":"提供全方位培训支持，包括产品知识、销售技能、安装、售后服务等系统培训，帮助经销商快速提升竞争力。"},
+        {"title":"成熟的管理体系支持","imgurl":"images/5.png","nav":"全方位为加盟经销商提供管理支持，包括店面管理、展示陈列管理、以及店员等全方位系统管理。"}
+    ],
+    "support2":[
+        {"title":"持续不断的新品上市支持","imgurl":"images/6.png","nav":"依托强大的研发、设计团队以及遍布全国的运营中心和网点，开展持续不断的新品上市，全方位覆盖市场，保证持续不断的新品供货。"},
+        {"title":"强大的品牌宣传支持","imgurl":"images/7.png","nav":"凭借遍布全国的机场、轨道交通、高速路口、户外大牌、车身等平台，开展全方位广告投放，实现广告营销价值最大化，让销量直线上升。"},
+        {"title":"最具实战效果的推广支持","imgurl":"images/8.png","nav":"提供推广物料（图册、手册、推广道具）等各类形式推广支持，竭力帮助加盟经销商扫除经营障碍，提升店面销量。"},
+        {"title":"专业策划团队全称支持","imgurl":"images/9.png","nav":"公司专业策划团队不定期提供节假日等形式多样的市场促销活动及方案，全称帮助经销商开展形式各异的市场活动，全面助推店面业绩和销量。"},
+        {"title":"完善的供应链及售后服务支持","imgurl":"images/10.png","nav":"在全国拥有四大研发生产基础，37家运营中心，3000多家专卖店以及10000多家网点，从产品定制到上门安装维护，提供家居照明一站式服务，全面消除加盟经销商的后顾之忧。"}
+    ],
+    "news": [
+        {
+            "title": "分分钟为您打造精致生活!",
+            "imgurl": "images/news1.jpg",
+            "keyword": "伯克丽 &nbsp;&nbsp; 精致生活",
+            "abstract": "“生存”与“生活”看似只有一字之差，却隐藏着我们对待生活的态度。",
+            "time": "2018.09.10",
+            "left": "",
+            "top": "",
+            "code": "news1"
+        },
+        {
+            "title": "你想要的精致生活，我给你！",
+            "imgurl": "images/news3.jpg",
+            "keyword": "智能家居 &nbsp;&nbsp; 精致生活",
+            "abstract": "",
+            "time": "2018.09.04",
+            "left": "-172px",
+            "top": "",
+            "code": "news2"
+        },
+        {
+            "title": "智能家居与传统家居，你Pick哪一个？",
+            "imgurl": "images/news3.jpg",
+            "keyword": "智能家居 &nbsp;&nbsp; 传统家居",
+            "abstract": "近年来智能家居顺应时代的需求，愈发火热，行业也逐渐壮大发展规模。据相关人员推测，未来几年我国智能家居将迎来爆发期，年增长率将保持在50%左右。",
+            "time": "2018.09.03",
+            "left": "-172px",
+            "top": "",
+            "code": "news3"
+        },
+        {
+            "title": "听说，颜值高的人爱扎堆??",
+            "imgurl": "images/news4.jpg",
+            "keyword": "伯克丽 &nbsp;&nbsp; 雷士 &nbsp;&nbsp; 家居环境 &nbsp;&nbsp; 高颜值灯具",
+            "abstract": "选择灯具，一定要擦亮眼睛，功能强大、完美外观，才是真正高颜值灯具！",
+            "time": "2018.07.27",
+            "left": "-172px",
+            "top": "",
+            "code": "news4"
+        },
+        {
+            "title": "就是介样，卧室气氛的营造全靠灯光！",
+            "imgurl": "images/news5.jpg",
+            "keyword": "伯克丽 &nbsp;&nbsp; 家居照明 &nbsp;&nbsp; 床头灯 &nbsp;&nbsp; 现代简约",
+            "abstract": "好的床头灯就是“催眠大师”，伯克丽床头灯专治各种“数羊”，用它的光线来温暖你，夜夜好眠！",
+            "time": "2018.07.24",
+            "left": "-370px",
+            "top": "",
+            "code": "news5"
+        },
+        {
+            "title": "幸福时光，雷士20年",
+            "imgurl": "images/news6.jpg",
+            "keyword": "伯克丽 &nbsp;&nbsp; 精致生活",
+            "abstract": "",
+            "time": "2018.07.10",
+            "left": "-40px",
+            "top": "",
+            "code": "news6"
+        }
+    ],
+    "newsTitle": [
+        {
+            "title": "渠道红利释放，商家抢着加盟——雷士Berkeley伯克丽走红市场",
+            "time": "2017.06.09"
+        },
+        {
+            "title": "现代家居 艺领非凡 | 雷士集团设计师联盟平台在京成立",
+            "time": "2017.04.29"
+        },
+        {
+            "title": "雷士获2016中国灯饰（照明）行业品牌大会两大奖项！",
+            "time": "2016.12.26"
+        },
+        {
+            "title": "雷士重磅出击，Berkeley伯克丽惊艳上市",
+            "time": "2016.10.23"
+        },
+        {
+            "title": "厉害了我的雷士｜这个10月，渠道为“伯克丽”而沸腾……",
+            "time": "2016.10.18"
+        }
+    ],
+     "yh1":
+    [
+        {"type":"serial","imgurl":"images/yh_serial1.jpg","label":"<span style='background:#d68184;'>HOT</span>","code":"s1","describe":"Berkeley相望系列"},
+        {"type":"serial","imgurl":"images/yh_serial2.jpg","code":"s1","describe":"Berkeley追影系列"},
+        {"type":"serial","imgurl":"images/yh_serial3.jpg","code":"s1","describe":"Berkeley拾刻系列"},
+        {"type":"serial","imgurl":"images/yh_serial4.jpg","label":"<span style='background:#93d8d5;'>NEW</span>","code":"s1","describe":"Berkeley植悟系列"}
+
+    ],
+    "yh2":
+    [
+        {"type":"product","imgurl":"images/yh_product1.jpg","code":"p1","describe":"Berkeley波纹系列"},
+        {"type":"product","imgurl":"images/yh_product2.jpg","code":"p1","describe":"Berkeley飞碟系列"},
+        {"type":"product","imgurl":"images/yh_product3.jpg","code":"p1","describe":"Berkeley普思系列"},
+        {"type":"product","imgurl":"images/yh_product4.jpg","label":"<span style='background:#d68184;'>HOT</span>","code":"p1","describe":"Berkeley洛影系列"},
+        {"type":"product","imgurl":"images/yh_product5.jpg","label":"<span style='background:#93d8d5;'>NEW</span>","code":"p1","describe":"Berkeley轩尼斯系列"},
+        {"type":"product","imgurl":"images/yh_product6.jpg","code":"p1","describe":"Berkeley时光胶囊系列"},
+        {"type":"product","imgurl":"images/yh_product7.jpg","code":"p1","describe":"Berkeley折花系列"},
+        {"type":"product","imgurl":"images/yh_product8.jpg","code":"p1","describe":"Berkeley飞风系列"}
+    ],
+    "yh3":
+    [
+        {"type":"banner","imgurl":"images/yh_banner1.jpg","code":"b1"},
+        {"type":"banner","imgurl":"images/yh_banner2.jpg","code":"b2"},
+        {"type":"banner","imgurl":"images/yh_banner4.jpg","code":"b4"},
+        {"type":"banner","imgurl":"images/yh_banner5.jpg","code":"b5"},
+        {"type":"banner","imgurl":"images/yh_banner6.jpg","code":"b6"},
+        {"type":"banner","imgurl":"images/yh_banner7.jpg","code":"b7"},
+        {"type":"banner","imgurl":"images/yh_banner3.jpg","code":"b3"}
+    ],
+    "leader":[
+        {
+            "src": "images/man.jpg",
+            "txt": "雷士集团工业设计总监<br>美国卡内基.梅隆大学艺术学学士,美国普瑞特艺术学院工业设计硕士， 具有二十多年的产品设计经验, 众多产品获得市场以及客户一致好评",
+            "code": "a1"
+        },
+        {
+            "src": "images/woMan.jpg",
+            "txt": "雷士集团家居照明首席设计师<br>从事产品设计13年，成功为欧美客户设计多款产品面世畅销，曾获“法国工业设计JANUS奖”等多项荣誉，崇尚简洁、纯粹设计风格，尤善于家居装饰创意灵感。",
+            "code": "a2"
+        }
+    ],
+    "master":[
+        {
+            "src":"images/Fang.jpg",
+            "name":"方钦正",
+            "txt":"高等教育室内设计专业副教授，中国建筑学会室内设计学会注册高级室内建筑师，上海世博会中最年轻国家馆主持建筑师。 发觉城市改变的骑行者。",
+            "motto":"光不止是细节，而是主体",
+            "code":"b1"
+            
+        },
+        {
+            "src":"images/Fan.jpg",
+            "name":"范继景",
+            "txt":"高级室内建筑师。2013、2014年 金堂奖获奖设计师；2015年法国双面神设计师奖；2015年 CIID资深设计师奖。一个号称自己被设计蛊惑的人。",
+            "motto":"设计之“光”源于自然 好设计配好生活",
+            "code":"b2"
+        },
+        {
+            "src":"images/He.jpg",
+            "name":"何永明",
+            "txt":"毕业于华南师范大学，现为广州道胜室内设计有限公司设计总监，曾获得众多知名奖项。奉行“创意、实用、优质至上的”设计理念。",
+            "motto":"言之有物、以人为本，设计是为了更好的生活",
+            "code":"b3"
+        },
+        {
+            "src":"images/Li.jpg",
+            "name":"李楠",
+            "txt":"中国高级注册室内设计师，IRIDA国际高级注册室内设计师。使不同流派、不同风格的设计理念在对艺术和卓越的追求中融会贯通，释放和升华。",
+            "motto":"光线可以化腐朽为神奇，设计能给生活带来温暖",
+            "code":"b4"
+        }
+    ],
+    "D_title":{
+        "say":"一说到设计师方钦正，最先让人联想到的是一头飘逸的长发，大而有神的眼睛，还有英伦风的气质。在台湾这个多元文化的地域上成长，之后又求学于英国曼彻斯特大学，有着材料工程学与建筑学背景的方钦正，对材料和空间有着极高的敏感度，完美主义倾向的他更是不到35岁便成为上海世博会中最年轻国家馆主持建筑师，同年在上海完成的新衡山电影院建筑群体设计也是其倾力之作。",
+
+        "tit1":"一「光不止是细节，而是主体」",
+        "tit2":"二「发掘城市改变的骑行者」",
+
+        "question1":"编辑：你在接手的这么多项目中，有没有一些您针对灯光效果作出的一些特别的设计方案呢？",
+        "dCtt1":"方钦正：我以前设计过一个世博会的展览馆。光影的效果对建筑物的设计来说是非常重要的一点。增加的这些灯光是为了模拟白天阳光的效果。它也有不确定性，因为它的时间成本是半年。针对这一套方案时，考虑到它的造价，因为LED最大的问题是衰减度，它会因为时间周期而逐渐衰减，但是这个项目的时间长度为半年，所以我们选择了更具性价比的措施，它不像一般所谓的正常的建筑的做法，要考虑得更多。后来我做了一个恒山电影院的建筑，也用了LED，两者最大的差别在于后者是一个常态性的建筑，更多考虑到这是一个公共设施的效果。所以当时我考虑它的灯光效果时，把它看作一个小地标，所谓小地标要反映到不同的节日，在灯光上要有所保留，要展现出不同的夜晚灯光效果，恒山电影院接近有16种灯光效果。灯具的话，灯具其实是看到的，外观漂亮是最重要的。",
+
+        "question2":"编辑：英国设计大师Sebastian（塞巴斯蒂安•奥比•康兰）为雷士全新现代简约家居品牌“Berkeley 伯克丽”设计系列灯具，您怎么看待这类设计师款的互联网产品？",
+        "dCtt2":"方钦正：我一直觉得产品发展到最后有雷同性，有可比性，有参考性。对于（雷士）设计师款的系列产品来说值得期待，不过现实我做很多案子为了避免同质化，尽量不去挑选市场上流行的灯具，我比较倾向于自己设计灯具，期待雷士伯克丽未来有更多非同质化的产品出现。",
+        
+        "question3":"编辑：在设计空间的时候，灯光元素的设计您放在第几位？",
+        "dCtt3":"方钦正：灯光的重要性我是放在第一位的，因为我接触的很多项目是餐饮和夜场有关的。但是实际操作中，考虑到它的可控性，我是放在最后的。",
+
+        "question4":"编辑：现在有很多照明企业（如雷士）转型开拓家居照明市场，对此您有什么期待吗？",
+        "dCtt4":"方钦正：这其实是一个趋势。因为他们考虑到未来十几年的业务量的问题。最初的那些大厂其实对于个人小家居并不是那么在意。他们的渠道与销售方式和以往的模式是截然不同的。我比较期待当（如雷士）他们转型家居照明市场的销售方式。作为设计师，有一个很重要的一点，设计师往往知道企业如何去推销它产品的时候。我们可以去帮助企业，也可以帮助到前期的业主。所以如果这些企业可以让我们设计师知道他们他们如何营销的话，对于他们拓展业务也会很有帮助。",
+
+        "question5":"编辑：听说你很喜欢骑脚踏车穿梭于城市间，在这骑行过程中有什么特别的感悟吗？",
+        "dCtt5":"方钦正：彻底去改变对这座城市的观感。从城市到人，再到很小的事物。我在上海居住了接近17年，前几年我都是自己开车或者乘车，但是哪种方式都十分有局限性。无论是我公司以前在建国桥，还是现在的外滩，都只局限在一块地方。自从我学会了骑脚踏车之后，我看这座城市的视角也不同了。因为最直观的，我坐在公交车上的视角是比脚踏车高的，那么有很多城市里的景色是我乘公交车会错过的。而且骑脚踏车看到有趣的事物，可以随时停下来，哪怕只有半分钟，因为有可能整个城市的活力就在那里。而且当你习惯了穿梭于城市中，会发现它的变化。这种变化不是指高楼大厦，而是一些小店改变了它的装潢，有的店开了两年就没了。这种变化的背后有很多耐人寻味的东西去挖掘。这也是我很理想的生活，因为这样子能认识到各种各样的人。比如你在路边吃一碗面，就会认识一名喝着茶水的司机。我是一个非常热爱城市的人。我给我自己定义是商业设计师，商业设计的灵感大到那些大楼，小到生活中很细微的东西，这些东西都是我所关心的。",
+
+        "question6":"编辑：人生总有几个重要的转折点，有没有一些关键的决定改变了你的人生轨迹？",
+        "dCtt6":"方钦正：有两个决定吧。第一个我大学其实学的专业是非常工科的半导体，是有关电子的。我那时候不觉得设计是一个行业什么的，我只是单纯觉得我能掌控空间，图案这方面的。所以在大学我就开始学习设计方面的内容。第二个决定应该是来到上海，上海这座城市对我的影响很大。而这种影响是相互的。"
+
+    }
+}

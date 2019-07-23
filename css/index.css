@@ -1,0 +1,284 @@
+
+.in_banner{
+	width: 100%;
+	height: 100%;
+}
+.in_banner ul{
+	display: block;
+	position: relative;
+	z-index: 9;
+}
+.in_banner ul li{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	opacity: 0;
+}
+.in_banner ul li a{
+	display: block;
+}
+.in_banner ul li img{
+	width: 100%;
+}
+.in_banner .clear{
+	position: relative;
+	z-index: 0;
+	opacity: 0;
+}
+.in_banner .clear img{
+	width: 100%;
+}
+
+/*快速通道*/
+.fast_box{
+	width: 1200px;
+	margin: 75px auto 0;
+}
+.fast_box ul{
+	width: 1169px;
+	margin: 0 auto;
+}
+.fast_box ul li{
+	float: left;
+	width: 167px;
+}
+.fast_box ul li a{
+	display: block;
+	cursor: pointer;
+}
+.fast_box ul li a img{
+	display: block;
+	height: 50px;
+	padding: 12px 0;
+	margin: 0 auto;
+}
+.fast_box ul li a span{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 12px;
+	color: #fff;
+}
+
+/*品牌*/
+.brand{
+	
+}
+.brand_box{
+	width: 1200px;
+	margin: 120px auto 0;
+}
+.brand_tit{
+	text-align: center;
+}
+.brand_tit span{
+	font-size: 20px;
+	color: #c3a96c;
+	letter-spacing: 3px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c3a96c;
+	display: inline-block;
+	font-weight: bold;
+}
+.brand_tit p{
+	font-size: 18px;
+	color: #c3a96c;
+	letter-spacing: 6px;
+	padding-top: 10px;
+}
+
+.brand_text{
+	margin: 90px 0 120px;
+}
+.brand_story{
+	float: left;
+	margin: 0 60px 0 20px;
+}
+
+.brand_story_text{
+	width: 505px;
+	padding-left: 30px;
+	box-sizing: border-box;
+	border-left: 1px solid #fff;
+	margin-top: 45px;
+	color: #fff;
+	letter-spacing: 2px;
+	margin-left: 10px;
+}
+.brand_story_text span{
+	font-size: 23px;
+	margin-bottom: 20px;
+	display: block;
+}
+.brand_story_text p{
+	font-size: 15px;
+	line-height: 35px;
+}
+.brand_story_text a img{
+	margin-top: 20px;
+}
+
+/*品牌内容区右*/
+.brand_right{
+	float: left;
+	width: 600px;
+	height: 495px;
+	position: relative;
+	background: #000;
+	overflow: hidden;
+}
+.br_img{
+	position: relative;
+	z-index: 9;
+	height: 495px;
+	left: 0;
+	top: 0;
+	cursor: pointer;
+}
+.br_img img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.br_img img:nth-child(1){
+	z-index: 10;
+}
+.br_img img:nth-child(2){
+	width: 600px;
+	height: 495px;
+}
+.brand_video{
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.brand_video video{
+	width: 600px;
+	position: relative;
+	margin-top: 76.75px;
+}
+
+/*产品展示*/
+.product{
+	
+}
+.product_list{
+	width: 1200px;
+	margin: 75px auto 0;
+}
+.product_list li{
+	float: left;
+    margin: 4px 32px 10px 0;
+    background: #fff;
+    text-align: center;
+    
+    position: relative;
+    left: 0;
+    top: 0;
+    transition: all 0.2s linear;
+}
+.product_list li:hover{
+	box-shadow:5px 5px 10px rgba(0,0,0,.7);
+	left: -3px;
+	top: -3px;
+	transition:all 0.2s linear;
+}
+
+.product_list li:nth-child(4){
+	margin: 4px 0 10px 0;
+}
+.product_list li img{
+	width: 276px;
+	height: 416px;
+}
+.product_list li p{
+	font-size: 20px;
+	color: #322f2f;
+	padding: 35px 20px 5px 20px;
+	width: 275px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+}
+.product_list li span{
+	font-size: 18px;
+	color: #322f2f;
+	padding: 0 20px 50px 20px;
+	width: 275px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+	display: block;
+}
+.product_more{
+	text-align: right;
+	width: 1200px;
+	margin: 45px auto 0;
+}
+
+/*设计团队*/
+.team{
+	width: 1200px;
+	margin: 70px auto;
+}
+.team_box{
+	width: 1030px;
+	height: 825px;
+	background: #57595f;
+	margin-left: 50px;
+	position: relative;
+	margin-top: 60px;
+}
+.team_text{
+	margin-left: 160px;
+	padding-top: 100px;
+	text-align: left;
+}
+.team_text p{
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+}
+.team_text a img{
+	margin-top: 30px;
+}
+.team_box .team1{
+	position: absolute;
+	top: 8px;
+	right: 30px;
+}
+.team_box .team1 img{
+	width: 330px;
+	height: 305px;
+}
+.team_box .team2{
+	position: absolute;
+	left: -50px;
+	bottom: -25px;
+}
+.team_box .team2 img{
+	width: 1052px;
+	height: 516px;
+}
+.team_box .team3{
+	position: absolute;
+	right: -110px;
+	top: 0px;
+	z-index: 2;
+}
+
+
+
+
+
